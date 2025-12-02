@@ -94,3 +94,4 @@ This project is distributed under the **MIT License**. See the `LICENSE` file fo
 **Illia Kuchuhurniy**
 
 ---
+_Created as a portfolio project to demonstrate File I/O, Process Management, and Clipboard interaction in C#._

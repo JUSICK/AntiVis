@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	<AssemblyTitle>AntiVis</AssemblyTitle>
+	<Company>Illia Kuchuhurnyi</Company>
+
+
+	  <UseWindowsForms>true</UseWindowsForms>
+
+	  <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

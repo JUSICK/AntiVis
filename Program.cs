@@ -135,7 +135,7 @@ namespace deleting_visible
                 Console.WriteLine("Im sorry I couldn't help you. Maybe try one more time?");
             }
 
-            Console.WriteLine("Hope I helped you! Press Enter to quit the programm...");
+            Console.WriteLine("Hope I helped you! Press Enter to quit the program...");
             Console.ReadLine();
 
         }

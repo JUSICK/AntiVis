@@ -1,0 +1,78 @@
+
+````- - - 
+# 🧹 AntiVis (Anti Visual Indexes)
+
+A robust C# Console Application designed to automate the removal of specific text strings (or "indexes") from `.sql` and `.txt` files.
+
+Built to streamline workflows by eliminating repetitive manual deletion of text patterns. Includes a persistent clipboard feature to copy cleaned text directly to system memory.
+
+## 🚀 Features
+
+* **Targeted Removal:** Strip any specific string or index from a file instantly.
+* **Smart Pathing:** Automatically detects if a file is in the local directory or requires a full system path.
+* **Flexible Output:**
+    * 💾 **Save to New File:** Keeps the original data safe.
+    * 📝 **Overwrite:** Updates the current file instantly.
+    * 📋 **Copy to Clipboard:** Copies cleaned text to the system clipboard (persists even after the app closes).
+* **Visual Interface:** Custom ASCII UI for a clean user experience.
+
+## 📥 Installation & Usage (For Users)
+
+**No coding knowledge required.**
+
+1.  Go to the **[Releases](../../releases)** page (on the right sidebar).
+2.  Download the latest `.zip` or `.exe` file.
+3.  Run `deleting_visible.exe`.
+4.  Follow the on-screen instructions:
+    * **Step 1:** Enter the string/index you want to remove.
+    * **Step 2:** Enter the filename (e.g., `database.sql`).
+    * **Step 3:** Choose your output method.
+
+---
+
+## 💻 For Developers (Build from Source)
+
+If you want to modify the code or build it yourself:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/JUSICK/AntiVis.git](https://github.com/JUSICK/AntiVis.git)
+    ```
+2.  **Open the project:**
+    Navigate to the folder and open `deleting_visible.csproj` in Visual Studio or VS Code.
+3.  **Build & Run:**
+    You must use Windows (due to Clipboard dependencies).
+    ```bash
+    dotnet run
+    ```
+
+## 📝 Example Scenario
+
+**Original File (`data.sql`):**
+```sql
+CREATE INDEX index_heavy ON Users;
+SELECT * FROM Users;
+````
+
+**Action:**
+
+  * **Input to remove:** `CREATE INDEX index_heavy ON Users;`
+  * **Output Mode:** 3 (Clipboard)
+
+**Result (In Clipboard):**
+
+```sql
+
+SELECT * FROM Users;
+```
+
+## ⚖️ License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+## 👤 Author
+
+**Illia Kuchuhurniy**
+
+```
+```

@@ -39,7 +39,7 @@ namespace deleting_visible
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(@"    ___          __  _ _    ___     
    /   |  ____  / /_(_) |  / (_)____                Version: 1.0.0.0
-  / /| | / __ \/ __/ /| | / / / ___/                Copyright: @ 2025 JUSICK
+  / /| | / __ \/ __/ /| | / / / ___/                Copyright: @ 2025 Illia Kuchuhurnyi
  / ___ |/ / / / /_/ / | |/ / (__  )                 Description: Anti VISUAL indexes.
 /_/  |_/_/ /_/\__/_/  |___/_/____/                  OS: Win-x64");
             Console.ForegroundColor = ConsoleColor.Red;

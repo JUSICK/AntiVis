@@ -1,4 +1,4 @@
-````markdown
+
 # 🧹 AntiVis (Anti Visual Indexes)
 
 A lightweight yet powerful **C# Console Application** designed to automatically remove specific text patterns (“indexes”) from `.sql` and `.txt` files.
@@ -43,6 +43,7 @@ Custom ASCII-styled UI for a clean, readable console experience.
 If you'd like to contribute or modify the program:
 
 ### 1. Clone the repo
+
 ```bash
 git clone https://github.com/JUSICK/AntiVis.git
 ````
